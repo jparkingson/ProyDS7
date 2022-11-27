@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "697952417920",
+    "project_id": "scannerqr-f531a",
+    "storage_bucket": "scannerqr-f531a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697952417920:android:ce7ceb660615bd008e4e65",
+        "android_client_info": {
+          "package_name": "com.example.scannerqr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697952417920-o94jv8oqcb03joditc4ttt82b1b49rvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA56JL1NHDFfVAybrgAvKN_W5QPCGfreio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697952417920-o94jv8oqcb03joditc4ttt82b1b49rvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
