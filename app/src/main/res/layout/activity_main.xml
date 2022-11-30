@@ -5,16 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/back">
+    android:background="@drawable/twsb">
 
-<androidx.appcompat.widget.AppCompatButton
-    android:id="@+id/Scan"
-    android:layout_gravity="center"
-    android:layout_width="150dp"
-    android:layout_height="60dp"
-    android:layout_marginLeft="135dp"
-    android:background="@drawable/button"
-    android:textSize="30dp"
-    android:text="Scan"/>
 
 </LinearLayout>

@@ -3,6 +3,7 @@ package com.example.scannerqr
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
@@ -11,13 +12,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btnScan = findViewById<Button>(R.id.Scan)
+        supportActionBar?.hide()
 
-        btnScan.setOnClickListener({
-            val siguiente = Intent(this, Scan::class.java)
-            startActivity(siguiente)
+        Handler().postDelayed({
+            val intent = Intent(this@MainActivity, Home::class.java)
+            startActivity(intent)
             finish()
-        })
+        }, 3000)
     }
 
 }
