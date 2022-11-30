@@ -48,7 +48,7 @@ class Scan : AppCompatActivity() {
             runOnUiThread {
                 database = FirebaseDatabase.getInstance().reference
                 Toast.makeText(this, "Scan Result: ${it.text}", Toast.LENGTH_SHORT).show()
-                database.child(it.text).setValue(it.text)
+                database.child("Usuario").push().setValue(it.text)
             }
         }
 
